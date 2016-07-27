@@ -1,0 +1,21 @@
+{
+    "name": "hyii2/yii2-avatar",
+    "description": "基于cropper的一款头像上传yii2组件",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Xianan Huang",
+            "email": "xianan_huang@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hyii2\\avatar\\": ""
+        }
+    }
+}
