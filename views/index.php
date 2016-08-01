@@ -5,7 +5,7 @@ use yii\bootstrap\Html;
 ?>
 <div id="crop-avatar">
     <div class="avatar-view">
-      <img src="/statics/images/avatar/avatar_1.jpg" alt="Avatar">
+      <img src="<?=$this->context->imageUrl?>" alt="Avatar">
     </div>
     
     <!-- Cropping modal -->

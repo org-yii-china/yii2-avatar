@@ -12,6 +12,8 @@ use yii\base\Object;
 
 class AvatarWidget extends Widget
 {    
+    public $imageUrl = '';
+    
     public function run()
     {
         $this->registerClientScript();
