@@ -260,7 +260,7 @@
       });
     },
 
-    syncUpload: function () {
+    syncUpload : function () {
       this.$avatarSave.click();
     },
 
@@ -269,8 +269,7 @@
     },
 
     submitDone: function (data) {
-      console.log(data);
-
+    	
       if ($.isPlainObject(data) && data.state === 200) {
         if (data.result) {
           this.url = data.result;
